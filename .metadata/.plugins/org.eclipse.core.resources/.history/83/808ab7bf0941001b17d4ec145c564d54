@@ -1,0 +1,28 @@
+
+public class Overloading1 {
+	
+	public void add(int i, int j){
+        i= 5;j= 6;
+		int k= i+j;
+		
+		System.out.println(k);
+		
+	}
+	
+
+	public void add(float i, float j){
+		i = 3;j=2;
+		float k= i+j;
+		System.out.println(k);
+		
+	}
+	public static void main(String[] args) {
+		Overloading1 ol		=new Overloading1();
+		ol.add(3, 2);
+		
+		
+	}
+	
+
+}
+

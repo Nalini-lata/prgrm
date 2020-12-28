@@ -1,0 +1,19 @@
+
+public class Overloading1 {
+	
+	public void add(int i, int j){
+        i= 5;j= 6;
+		int k= i+j;
+		
+	}
+	
+
+	public void add(float i, float j){
+		i = 3;j=2;
+		float k= i+j;
+		
+	}
+	
+
+}
+

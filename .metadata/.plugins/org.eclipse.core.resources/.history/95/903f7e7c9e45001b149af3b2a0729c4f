@@ -1,0 +1,27 @@
+
+public class Java implements Runnable{
+
+	public static void main(String[] args) {
+		Java j=new Java();
+		Thread t=new Thread(j);
+		t.start();
+		System.out.println("W");
+		try{
+			t.join();
+		}catch(Exception e){
+			
+		}
+		
+		
+	}
+
+	@Override
+	public void run() {
+		System.out.println("A");
+		System.out.println("B");
+		
+	}
+	
+	
+}
+

@@ -1,0 +1,7 @@
+Feature: Login functionality
+Scenario: To test the login functionality
+given: user is on login page
+when: user enter the user name
+and: user enter the password
+and: user click on the login button
+then: user should be able to login
